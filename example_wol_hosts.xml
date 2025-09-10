@@ -1,0 +1,16 @@
+<wol>
+    <!-- Defaults if a host omits them -->
+    <defaults port="9" address="0.0.0.0"/>
+
+    <!-- General format -->
+    <host name="device-name"
+        mac="device-mac-addr"
+        address="device-ip-address"
+        port="device-port"/>
+
+    <!-- Implementation -->
+    <host name="device-name"
+        mac="AB:CD:AB:CD:AB:CD"
+        address="8.8.8.8"
+        port="9"/>
+</wol>
