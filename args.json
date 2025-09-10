@@ -1,0 +1,32 @@
+[
+  {
+    "flags": ["name"],
+    "kwargs": {
+      "nargs": "?",
+      "help": "Host name from XML config (use --list to see)"
+    }
+  },
+  {
+    "flags": ["-l", "--list"],
+    "kwargs": {
+      "action": "store_true",
+      "help": "List configured hosts"
+    }
+  },
+  {
+    "flags": ["--port"],
+    "kwargs": {
+      "type": "int",
+      "metavar": "N",
+      "help": "Override destination UDP port",
+      "group": "port_group"
+    }
+  },
+  {
+    "flags": ["--ssh"],
+    "kwargs": {
+      "metavar": "HOST",
+      "help": "Relay WoL via SSH on a remote host (e.g. 'raspi' or 'pi@host')"
+    }
+  }
+]
